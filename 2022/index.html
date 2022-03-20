@@ -7,62 +7,186 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
 
-
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
         <!-- <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> -->
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-
-        <script src="/js/jquery-3.3.1.min.js"></script>
-        <script src="/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-        <script src="/js/template.js"></script>
-
-        <title>Argument Mining Workshop 2022</title>
 
         <link rel="stylesheet" href="style.css">
+
+        <title>Argument Mining Workshop 2022</title>
     </head>
 
-    <body id="page-top">
-
+    <body>
         <nav id="nav" class="navbar">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="index.html">ArgMining 2022</a>
-                <a class="nav-link js-scroll-trigger" href="index.html#about">About</a>
-                <a class="nav-link js-scroll-trigger" href="index.html#call">Call for Papers</a>
-                <a class="nav-link js-scroll-trigger" href="index.html#dates">Important Dates</a>
-                <a class="nav-link js-scroll-trigger" href="index.html#program">Program</a>
-                <a class="nav-link" href="shared_task_ibm.html#ibm">Shared Task</a>
-                <a class="nav-link js-scroll-trigger" href="index.html#committee">Committee</a>
-                <a class="nav-link js-scroll-trigger" href="index.html#previous_workshops">Past Workshops</a>
-                <a class="nav-link js-scroll-trigger" href="index.html#policy">Policy</a>
-                <a class="nav-link js-scroll-trigger" href="index.html#contact_us">Contact Us</a>
+                <a href="index.html#about">About</a>
+                <a href="index.html#call">Call for Papers</a>
+                <a href="index.html#dates">Important Dates</a>
+                <a href="index.html#program">Program</a>
+                <a href="index.html#shared_task">Shared Task</a>
+                <a href="index.html#committee">Committee</a>
+                <a href="index.html#previous_workshops">Past Workshops</a>
+                <a href="index.html#policy">Policy</a>
+                <a href="mailto:argmining-org@gmail.com" target="_blank">Contact Us</a>
             </div>
         </nav>
 
-        <!-- Masthead-->
-        <header class="masthead">
-            <div class="container">
-                <div class="masthead-heading ">ArgMining 2022</div>
-                <div class="social-media-div ">
-                    <a class="tw-ic mr-3" role="button" href="https://twitter.com/ArgMining_2021" target="_blank"><i class="fab fa-lg fa-twitter"></i>follow us @ArgMining_2022</a>
+        <div class="wrapper">
+            <div class="masthead">
+                <div class="workshop_title">
+                    <h1>The 9th Workshop on Argument Mining</h1>
+                    <p>October 18, 2022</p>
+                    <p>Co-located with <a href="https://coling2022.org/" target="_blank">COLING 2022</a> in South Korea</p>
                 </div>
-                <div class="masthead-subheading">The 9th Workshop on Argument Mining, 2022</div>
-                <div class="masthead-subheading">co-located with <a href="https://" target="_blank">COLING 2022</a>, in  ...</div>
+                <div class="twitter">
+                    <a role="button" href="https://twitter.com/ArgMining_2021" target="_blank"><img src="img/logos/twitter_icon.jpeg" alt="twitter" class="twitter_icon" /></a>
+                </div>
             </div>
-        </header>
 
-        <div class="container">
-            <!--{{ content }}-->
+            <section class="section" id="about">
+                <p>Argument mining (also known as "argumentation mining") is a growing research area within computational linguistics. 
+                At its heart, argument mining involves the automatic identification of argumentative structures in free text, such as the conclusions, premises, and inference schemes of arguments, as well as their pro- and con-relations. 
+                To date, researchers have investigated argument mining on many genres, such as legal documents, product reviews, news articles, online debates, Wikipedia articles, essays, academic literature, tweets, and dialogues. 
+                In addition, argument quality assessment and generation are also important problems.
+                Argument mining gives rise to various practical applications of great importance. 
+                In particular, it provides methods that can find and visualize the main pro and con arguments in written text and dialogue and that enable argument search on the web for a topic of interest. 
+                In educational contexts, argument mining can be applied to written and diagrammed arguments for instructing and assessing students' critical thinking. 
+                In information retrieval, argument mining is expected to play a salient role in the emerging field of conversational search. 
+            </section>
+
+            <section class="section" id="call">
+                <h2>Call for Papers</h2>
+                <p>ArgMining 2021 invites the submission of long and short papers on substantial, original, and unpublished research in all aspects of argument mining. The workshop solicits LONG and SHORT papers for oral and poster presentations, as well as DEMOS of argument/argumentation mining systems and tools.</p>
+                <p>The topics for submissions include but are not limited to:
+                <ul>
+                    <li>Automatic identification of argument components (e.g., premises and conclusions), and relations between arguments (e.g., support and attack) in as well as across documents</li>
+                    <li>Automatic assessment of properties of arguments and argumentation, such as argumentation schemes, stance, quality, and persuasiveness</li>
+                    <li>Creation and evaluation of argument annotation schemes, developing automatic and semi-automatic argument annotation methods and tools, and building high-quality annotated datasets, benchmarks, and Knowledge graphs</li>
+                    <li>Automatic retrieval, summarization, and generation of arguments</li>
+                    <li>Applications of argument mining and computational argumentation to various domains and data such as social sciences and humanities texts, legal and technical documents, scientific papers, news corpora, Wikipedia articles, consumer reviews, user-generated content, and students&rsquo; written essays.</li>
+                </ul>
+                </p>
+                <p>This year, the workshop plans to have a joint session with the workshop <a href="https://sites.google.com/view/codi-2021/">CODI (Computational Approaches to Discourse)</a>. Submissions that address argumentation from an angle that overlaps with discourse structure phenomena will be considered for that session. (Authors may but need not make this potential overlap explicit)</p>
+
+                <h3>Submission Information</h3>
+                <p>Three types of papers can be submitted: Long papers (8 pages + references), short papers (4 pages + references), and demo papers (4 pages + references). Demo papers must include a URL to a running demo. Accepted papers will be given an additional page to account for the reviewers' comments. All papers will be treated equally in the workshop proceedings. The workshop follows <a href="https://www.aclweb.org/adminwiki/index.php?title=ACL_Policies_for_Submission,_Review_and_Citation">ACL&rsquo;s policies</a> for submission, review, and citation. Moreover, authors are expected to adhere to the ethical code set out in the <a href="https://www.aclweb.org/portal/content/acl-code-ethics">ACL Code of Ethics</a>. Submissions that violate any of the policies will be rejected without review.</p>
+                <p>Please use the EMNLP 2021 style sheets for formatting your paper: <a href="https://2021.emnlp.org">https://2021.emnlp.org/</a></p>
+                <p>Submission URL: <a href="https://www.softconf.com/emnlp2021/ArgMining/">https://www.softconf.com/emnlp2021/ArgMining/</a></p>
+                <p>The workshop is running a double-blind review process. In preparing your manuscript, do not include any information which could reveal your identity, or that of your co-authors. The title section of your manuscript should not contain any author names, email addresses, or affiliation status. If you do include any author names on the title page, your submission will be automatically rejected. In the body of your submission, you should eliminate all direct references to your own previous work. That is, avoid phrases such as "this contribution generalizes our results for XYZ". Also, please do not disproportionately cite your own previous work. In other words, make your submission as anonymous as possible. We need your cooperation in our effort to maintain a fair, double-blind reviewing process - and to consider all submissions equally. Double Submission Papers that have been or will be submitted to other venues should indicate this at submission time. Upon acceptance at either event, the submission must be withdrawn from the other. To save reviewers' efforts, avoid submitting (or withdraw early) papers that are on track to be accepted elsewhere.</p>
+            </section>
+
+            <section class="section" id="dates">
+                <h2>Important Dates</h2>
+                <ul>
+                    <li><b>Submission due:</b> August 20, 2021  **Extended Deadline**</li>
+                    <li><b>Notification of acceptance:</b> September 15, 2021</li>
+                    <li><b>Camera-ready papers due:</b> September 23, 2021</li>
+                    <li><b>Workshop:</b> November 10-11, 2021</li>
+                </ul>
+                <p>All deadlines are 11.59 pm UTC -12h (“anywhere on Earth”).</p>
+            </section>
+
+
+
+            <section class="section" id="shared_task">
+                <h2>Shared Task</h2>
+                <p>Framing is the process of selecting a subset from the set of available information, based on a certain guiding principle, and aiming for an effect on the target audience. In argumentation, framing is the process of emphasizing a specific aspect of a controversial topic to convince the audience. For example, when discussing the legalization of drugs, various aspects (called "frames" here) such as health, economics, or ethics may be emphasized. An explicit handling of framing (be it by its uncovering or by its introduction) is necessary for various computational argumentation tasks such as persuasiveness prediction and analysis, argument summarization, and argument search.</p>
+                <p>In this shared task, we seek systems that are able to choose the "primary frame" of a given argument from a set of provided candidate frames. We encourage all participants of this shared task to submit their work in the 'Argument Mining' workshop at EMNLP. The accepted submissions will be included in the workshop proceeding.</p>
+            </section>
+
+            <section class="section" id="committee">
+                <h2>Committee</h2>
+                <h3>Organizing Committee</h3>
+                <div class="organizing_committee">
+                    <div class="member">
+                        <img src="img/people/gabriella_lapesa.jpeg" class="photo" />
+                        <div class="details">
+                            <p class="name"><a href="https://www.ims.uni-stuttgart.de/en/institute/team/Lapesa/">Gabriella Lapesa</a></p>
+                            <p class="email">email</p>
+                            <img src="img/logos/univ_stuttgart.png" class="logo" />
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img src="img/people/jodi_schneider.jpeg" class="photo" />
+                        <div class="details">
+                            <p class="name"><a href="https://ischool.illinois.edu/people/jodi-schneider">Jodi Schneider</a></p>
+                            <p class="email">email</p>
+                            <img src="img/logos/uiuc.png" class="logo" />
+                        </div>
+                    </div>
+                    <div class="member">
+                        <img src="img/people/yohan_jo.jpeg" class="photo" />
+                        <div class="details">
+                            <p class="name"><a href="http://yohanjo.github.io">Yohan Jo</a></p>
+                            <p class="email">email</p>
+                            <img src="img/logos/amazon.png" class="logo" />
+                        </div>
+                    </div>
+                </div>
+
+
+                <h3>Program Committee</h3>
+                <div class="program_committee">
+                    <ul class="column">
+                        <li>Stergos D. Afantenos, Université Paul Sabatier</li>
+                        <li>Milad	Alshomary, Paderborn University</li>
+                        <li>Kevin Ashley, University of Pittsburgh</li>
+                        <li>Roy Bar-Haim, IBM Research AI</li>
+                        <li>Miriam Butt, University of Konstanz</li>
+                        <li>Elena Cabrio, CNRS, Inria, I3S</li>
+                        <li>Shohreh	Haddadan, University of Luxembourg</li>
+                        <li>Christopher	Hidey, Google</li>
+                        <li>Xinyu	Hua, Bloomberg LP</li>
+                    </ul>
+                    <ul class="column">
+                        <li>Anne Lauscher, University of Mannheim</li>
+                        <li>John Lawrence, University of Dundee</li>
+                        <li>Diane Litman, University of Pittsburgh</li>
+                        <li>Elena Musi, Columbia University</li>
+                        <li>Alexis Palmer, University of Colorado</li>
+                        <li>Joonsuk Park, University of Richmond</li>
+                        <li>Simon	Parsons, King's College London</li>
+                        <li>Georgios Petasis, NCSR Demokritos</li>
+                        <li>Olesya Razuvayevskaya, European Bioinformatics Institute</li>
+                    </ul>
+                </div>
+
+            </section>
+
+            <section class="section" id="past_workshops">
+                <h2>Past Workshops</h2>
+                <div class="table">
+                    <ul class="column">
+                        <li><a href="https://2021.argmining.org" target="_blank">Argmining 2021</a> (<a href="https://www.aclweb.org/anthology/volumes/2021.argmining-1/" target="_blank">Proceedings</a>)</li>
+                        <li><a href="https://argmining2020.i3s.unice.fr/" target="_blank">Argmining 2020</a> (<a href="https://www.aclweb.org/anthology/volumes/2020.argmining-1/" target="_blank">Proceedings</a>)</li>
+                        <li><a href="https://events.webis.de/argmining-19/" target="_blank">Argmining 2019</a> (<a href="https://www.aclweb.org/anthology/volumes/W19-45/" target="_blank">Proceedings</a>)</li>
+                        <li><a href="https://www.research.ibm.com/haifa/Workshops/argmining18/index.shtml" target="_blank">Argmining 2018</a> (<a href="https://www.aclweb.org/anthology/volumes/W18-52/" target="_blank">Proceedings</a>)</li>
+                    </ul>
+                    <ul class="column">
+                        <li><a href="https://argmining2017.wordpress.com/" target="_blank">Argmining 2017</a> (<a href="https://www.aclweb.org/anthology/volumes/W17-51/" target="_blank">Proceedings</a>)</li>
+                        <li><a href="http://argmining2016.arg.tech/" target="_blank">Argmining 2016</a> (<a href="https://www.aclweb.org/anthology/volumes/W16-28/" target="_blank">Proceedings</a>)</li>
+                        <li><a href="https://www.cs.cornell.edu/home/cardie/naacl-2nd-arg-mining/" target="_blank">Argmining 2015</a> (<a href="https://www.aclweb.org/anthology/volumes/W15-05/" target="_blank">Proceedings</a>)</li>
+                        <li><a href="https://www.uncg.edu/cmp/ArgMining2014/" target="_blank">Argmining 2014</a> (<a href="https://www.aclweb.org/anthology/volumes/W14-21/" target="_blank">Proceedings</a>)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section" id="policy">
+                <h2>Policy</h2>
+                <p>We abide by the <a href="https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy" target="_blank">ACL anti-harassment policy</a>.</p>
+            </section>
+
         </div>
 
-
+        <div id="footer">
+            <div class="dummy">
+                <a role="button" href="index.html">&#8613;</a>
+            </div>
+        </div>
     </body>
 </html>
