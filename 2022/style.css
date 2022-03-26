@@ -99,6 +99,11 @@ a:hover {
     font-size: 20pt;
 }
 
+h3 img {
+    vertical-align: center;
+    height: 20px;
+}
+
 .organizing_committee {
     display: table;
     width: 100%;
@@ -129,6 +134,10 @@ a:hover {
 
 .organizing_committee .member .email {
     font-size: 12pt;
+}
+
+.organizing_committee .email_logo {
+    height: 1.3em;
 }
 
 .organizing_committee .logo {
