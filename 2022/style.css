@@ -45,7 +45,6 @@ a:hover {
     color: #f2f2f2;
 }
 
-/* Change background on mouse-over */
 .navbar a:hover {
     background: royalblue;
 }
@@ -54,10 +53,9 @@ a:hover {
     padding: 14px 40px;
 }
 
-/* Main content */
 .wrapper {
-    margin: 100px auto; /* Add a top margin to avoid content overlay */
-    width: 1000px;
+    margin: 100px auto; 
+    max-width: 1000px;
 }
 
 .masthead {
@@ -144,7 +142,7 @@ a:hover {
 
 .program_committee .column {
     display: table-cell;
-    width: 49%;
+    width: 50%;
 }
 
 #past_workshops .table {
@@ -154,7 +152,7 @@ a:hover {
 
 #past_workshops .table .column {
     display: table-cell;
-    width: 49%;
+    width: 33%;
 }
 
 #footer {
