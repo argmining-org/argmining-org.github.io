@@ -78,12 +78,12 @@ a:hover {
     margin: 0;
 }
 
-.masthead .twitter {
+.masthead .links {
     font-size: 20pt;
 }
 
-.masthead .twitter_icon {
-    width: 40px;
+.masthead .links .icon {
+    height: 40px;
 }
 
 .section {
