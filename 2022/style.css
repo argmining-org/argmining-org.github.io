@@ -122,7 +122,11 @@ a:hover {
     width: 33%;
 }
 
-.organizing_committee .photo {
+.organizing_committee .member p {
+    margin: 0;
+}
+
+.organizing_committee .member .photo {
     float: left;
     width: 100px;
     height: 100px;
@@ -136,19 +140,15 @@ a:hover {
     text-align: center;
 }
 
-.organizing_committee .member p {
-    margin: 0;
-}
-
 .organizing_committee .member .email {
     font-size: 12pt;
 }
 
-.organizing_committee .email_logo {
+.organizing_committee .member .email_logo {
     height: 1.3em;
 }
 
-.organizing_committee .logo {
+.organizing_committee .member .logo {
     margin-top: 10px;
     height: 30px;
 }
