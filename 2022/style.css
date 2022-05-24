@@ -119,7 +119,8 @@ a:hover {
 
 .organizing_committee .member {
     display: table-cell;
-    width: 33%;
+    width: 25%;
+    text-align: center;
 }
 
 .organizing_committee .member p {
@@ -127,16 +128,12 @@ a:hover {
 }
 
 .organizing_committee .member .photo {
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin-left: 40px;
+    width: 150px;
+    height: 150px;
     object-fit: cover;
 }
 
 .organizing_committee .member .details {
-    float: left;
-    width: 55%;
     text-align: center;
 }
 
