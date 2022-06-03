@@ -169,6 +169,16 @@ a:hover {
     width: 33%;
 }
 
+#sponsors .sponsors {
+    display: table;
+    width: 100%;
+}
+
+#sponsors .sponsors img {
+    display: table-cell;
+    max-width: 25%;
+}
+
 #footer {
     width: 100%;
     height: 70px;
