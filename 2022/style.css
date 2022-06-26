@@ -112,6 +112,33 @@ a:hover {
     color: #EEC98A;
 }
 
+#keynote .person {
+    display: table;
+}
+
+#keynote .person p {
+    margin: 0;
+}
+
+#keynote .person .photo {
+    display: table-cell;
+}
+
+#keynote .person .photo img {
+    width: 150px;
+    margin: 0 30px 0 5px;
+}
+
+#keynote .person .profile {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#keynote .person .profile .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
 .organizing_committee {
     display: table;
     width: 100%;
