@@ -139,6 +139,40 @@ a:hover {
     margin-bottom: 10px;
 }
 
+#panel_session .panelists {
+    display: table;
+    width: 100%;
+}
+
+#panel_session .panelist {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+}
+
+#panel_session .panelist .domain{
+    margin-bottom: 10px;
+}
+
+#panel_session .panelist .name {
+    margin: 0;
+}
+
+#panel_session .panelist .photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#panel_session .panelist .details {
+    text-align: center;
+}
+
+#panel_session .panelist .logo {
+    margin-top: 10px;
+    height: 30px;
+}
+
 .organizing_committee {
     display: table;
     width: 100%;
