@@ -1,3 +1,7 @@
+:root {
+    --navbar-height: 90px;
+}
+
 body {
     margin: 0;
     font-family: sans-serif;
@@ -64,7 +68,6 @@ a:hover {
     font-family: "Roboto Slab";
 }
 
-
 .masthead .workshop_title {
     padding: 50px 0;
     font-size: 24pt;
@@ -99,17 +102,24 @@ a:hover {
     font-size: 20pt;
 }
 
-#news p {
-    margin: 5px -10px;
-    padding: 10px 20px;
-    background: #252B40;
-    background: #375B7F;
-    background: #193A5B;
-    color: white;
+#about {
+    scroll-margin-top: var(--navbar-height);
 }
 
-#news a {
-    color: #EEC98A;
+#program {
+    scroll-margin-top: var(--navbar-height);
+}
+
+#program p {
+    margin: 0;
+}
+
+#program .time {
+    font-weight: bold;
+}
+
+#keynote {
+    scroll-margin-top: var(--navbar-height);
 }
 
 #keynote .person {
@@ -137,6 +147,10 @@ a:hover {
 #keynote .person .profile .title {
     font-weight: bold;
     margin-bottom: 10px;
+}
+
+#panel_session {
+    scroll-margin-top: var(--navbar-height);
 }
 
 #panel_session .panelists {
@@ -173,49 +187,76 @@ a:hover {
     height: 30px;
 }
 
-.organizing_committee {
+#shared_task {
+    scroll-margin-top: var(--navbar-height);
+}
+
+#call {
+    scroll-margin-top: var(--navbar-height);
+}
+
+#dates {
+    scroll-margin-top: var(--navbar-height);
+}
+
+#committee {
+    scroll-margin-top: var(--navbar-height);
+}
+
+#organizing_committee {
     display: table;
     width: 100%;
 }
 
-.organizing_committee .member {
+#organizing_committee .member {
     display: table-cell;
     width: 25%;
     text-align: center;
 }
 
-.organizing_committee .member p {
+#organizing_committee .member p {
     margin: 0;
 }
 
-.organizing_committee .member .photo {
+#organizing_committee .member .photo {
     width: 150px;
     height: 150px;
     object-fit: cover;
 }
 
-.organizing_committee .member .details {
+#organizing_committee .member .details {
     text-align: center;
 }
 
-.organizing_committee .member .email {
+#organizing_committee .member .email {
     font-size: 12pt;
 }
 
-.organizing_committee .member .email_logo {
+#organizing_committee .member .email_logo {
     height: 1.3em;
 }
 
-.organizing_committee .member .logo {
+#organizing_committee .member .logo {
     margin-top: 10px;
     height: 30px;
 }
 
-.program_committee {
+#program_committee {
     display: table;
+    width: 100%;
 }
 
-.program_committee .column {
+#program_committee .column {
+    display: table-cell;
+    width: 50%;
+}
+
+#best_paper_committee {
+    display: table;
+    width: 100%;
+}
+
+#best_paper_committee .column {
     display: table-cell;
     width: 50%;
 }
@@ -228,6 +269,10 @@ a:hover {
 #past_workshops .table .column {
     display: table-cell;
     width: 33%;
+}
+
+#sponsors {
+    scroll-margin-top: var(--navbar-height);
 }
 
 #sponsors .sponsors {
