@@ -261,6 +261,17 @@ a:hover {
     width: 50%;
 }
 
+#local_chair {
+    display: table;
+    width: 100%;
+}
+
+#local_chair .column {
+    display: table-cell;
+    width: 50%;
+}
+
+
 #past_workshops .table {
     display: table;
     width: 100%;
