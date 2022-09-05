@@ -95,8 +95,13 @@ a:hover {
     font-size: 20pt;
 }
 
+#about p {
+    margin-bottom: 10px;
+}
+
 #program .time {
     font-weight: bold;
+    margin-right: 10px;
 }
 
 #keynote .person {
@@ -151,6 +156,10 @@ a:hover {
 #panel_session .panelist .logo {
     margin-top: 10px;
     height: 30px;
+}
+
+#shared_task p {
+    margin-bottom: 10px;
 }
 
 #organizing_committee {
