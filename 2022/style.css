@@ -95,6 +95,17 @@ a:hover {
     font-size: 20pt;
 }
 
+#news {
+    margin: 0 -20px;
+    padding: 20px;
+    background-color: #363666;
+    color: white;
+}
+
+#news a {
+    color: #afd931;
+}
+
 #about p {
     margin-bottom: 10px;
 }
