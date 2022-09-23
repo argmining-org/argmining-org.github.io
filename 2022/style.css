@@ -115,6 +115,16 @@ a:hover {
     margin-right: 10px;
 }
 
+#program .papers {
+    margin: 5px 0 10px 0;
+    padding-left: 160px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+#program .papers li {
+    padding: 0;
+}
+
 #keynote .person {
     display: table;
 }
