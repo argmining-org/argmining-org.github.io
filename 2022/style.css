@@ -259,13 +259,12 @@ a:hover {
 }
 
 #sponsors .sponsors {
-    display: table;
     width: 100%;
 }
 
 #sponsors .sponsors img {
-    display: table-cell;
-    max-width: 25%;
+    margin-right: 50px;
+    max-height: 40px;
 }
 
 #footer {
