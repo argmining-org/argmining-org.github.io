@@ -183,6 +183,16 @@ a:hover {
     margin-bottom: 10px;
 }
 
+#scholarship {
+    display: table;
+    width: 100%;
+}
+
+#scholarship .column {
+    display: table-cell;
+    width: 50%;
+}
+
 #organizing_committee {
     display: table;
     width: 100%;
