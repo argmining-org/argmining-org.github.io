@@ -95,16 +95,7 @@ a:hover {
     font-size: 20pt;
 }
 
-#news {
-    margin: 0 -20px;
-    padding: 20px;
-    background-color: #363666;
-    color: white;
-}
 
-#news a {
-    color: #afd931;
-}
 
 #about p {
     margin-bottom: 10px;
@@ -308,3 +299,14 @@ a:hover {
 }
 
 
+.notice--info {
+    margin: 1em 0 !important;
+    padding: 1em;
+    color: #494e52;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-size: 1em !important;
+    text-indent: initial;
+    background-color: #ebf5f8;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(59,156,186,0.25);
+}
