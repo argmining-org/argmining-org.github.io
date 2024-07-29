@@ -157,13 +157,13 @@ a:hover {
     margin-bottom: 10px;
 }
 
-#panel_session .panelists {
+#panel .panelists {
     margin-top: 10px;
     display: table;
     width: 100%;
 }
 
-#panel_session .panelist {
+#panel .panelist {
     display: table-cell;
     width: 20%;
     text-align: center;
@@ -173,19 +173,19 @@ a:hover {
     margin-bottom: 10px;
 }
 
-#panel_session .panelist .photo {
+#panel .panelist .photo {
     width: 150px;
     height: 150px;
     object-fit: cover;
 }
 
-#panel_session .panelist .details {
+#panel .panelist .details {
     text-align: center;
 }
 
-#panel_session .panelist .logo {
+#panel .panelist .logo {
     margin-top: 10px;
-    height: 30px;
+    height: 55px;
 }
 
 #shared_task p {
@@ -328,3 +328,8 @@ a:hover {
     border-radius: 4px;
     box-shadow: 0 1px 1px rgba(59,156,186,0.25);
 }
+
+
+#oldnews{
+    display:none;
+  }

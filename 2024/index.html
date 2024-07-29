@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+
+
 <html lang="en">
     <head>
         <link href="http://gmpg.org/xfn/11" rel="profile">
@@ -10,6 +13,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
         <!-- <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" /> -->
         <!-- Google fonts-->
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
@@ -35,7 +41,7 @@
                 <a href="index.html#call">Call for Papers</a>
 				<a href="index.html#shared_task">Shared Tasks</a>
                 <a href="index.html#committee">Committee</a>
-                <!--<a href="index.html#sponsors">Sponsors</a>-->
+                <a href="index.html#sponsors">Sponsor</a>
                 <a href="mailto:argmining.org@gmail.com,y.ajjour@ai.uni-hannover.de,roybar@il.ibm.com" target="_blank">Contact Us</a>
             </div>
         </nav>
@@ -55,9 +61,12 @@
             </div>
 
             <section class="section" id="news">
+                <p class="notice--info"><b>15 July 2024. </b>Check our  <a href="index.html#panel"><b>panelists</b></a>! See you in August!</p>
                 <p class="notice--info"><b>15 July 2024. </b>The ArgMining 2024 <a href="index.html#program"><b>program</b></a> is out! See you in August!</p>
 
                 <p class="notice--info"><b>4 July 2024. </b>We are happy to announce our Keynote Speaker: <a href="index.html#keynote"><b>Yufang Hou</b></a> from IBM Research Europe, Ireland. </p>
+                <a id="toggle" href="#">Show/Hide older news ...</a>
+                <div id="oldnews">
                 <p class="notice--info"><b>17 May 2024. </b>!!! Commitment Deadline Extension !!! <del>24th of May AOE</del> <b>31st of May AOE</b>. <a href="https://openreview.net/group?id=aclweb.org/ACL/2024/Workshop/ArgMining_ARR_Commitment#tab-your-consoles" target="_blank"> Commit your paper to ArgMining2024</a> </p>
                 <p class="notice--info"><b>17 May 2024. </b>!!! Deadline Extension !!! <del>17th of May AOE</del> <b>20th of May AOE</b>. </p>
                 <p class="notice--info"><b>16 May 2024. </b>If you already have your paper reviewed as part of ARR, you can now <a href="https://openreview.net/group?id=aclweb.org/ACL/2024/Workshop/ArgMining_ARR_Commitment#tab-your-consoles" target="_blank"> commit it to ArgMining2024</a> by the 24th of May AOE! </p>
@@ -72,7 +81,7 @@
 
                 <p class="notice--info"><b>7 December 2023. </b><a href="https://www.mail-archive.com/corpora@list.elra.info/msg02410.html" target="_blank">Call for Shared Task</a> is out</p>
                 <p class="notice--info"><b>7 December 2023. </b>The official ArgMining 2024 website is launched.</p>
-                
+            </div>
             </section>
             <hr>
             <section class="section" id="about">
@@ -134,9 +143,60 @@
                 <!--<p>Computational argumentation aims to develop methods for extracting, analyzing, and generating human arguments. This field holds significant promise for applications ranging from automated debate systems to advanced decision-support tools. Central to these advancements are language models, which are trained to simulate human language. However, a critical issue with language models is their tendency to inherit and propagate social and stereotypical biases present in their training data. Moreover, these models typically learn from aggregated absolute labels, which do not accurately reflect the nuanced spectrum or distribution of truth in argumentation. Additionally, computational argumentation tasks, such as assessing the persuasiveness of arguments, are inherently subjective and heavily influenced by the author and audience.
                 </p>     -->           
                 <p>This panel session will discuss the role of the human in computational argumentation, exploring ways of creating more representative, fair, and effective computational models of argumentation that better capture the complexities of human discourse. The discussion will focus on two strategies of capturing human context, views, and preferences: perspectivism and personalization. While personalization aims at integrating information about the speaker and target audience (e.g., values and culture) in training or instructing language models, perspectivism aims at ensuring that the views captured by models are representative of the relevant social groups. The panel will look at the consequences, opportunities, and challenges of adapting perspectivism and personalization in computational argumentation.</p>
+                <h3>Panelists</h3>
                 <div class="panelists">
-                    <h3>Panelists: TBA</h3>
+                    <div class="panelist">
+                        <img src="img/panelists/flek.jpeg" class="photo" /> <!-- Good -->
+                        <div class="details">
+                            <p class="name"><a href="https://caisa-lab.github.io" target="_blank">Lucie Flek</a></p>
+                            <img src="img/logos/logo_bonn.svg" class="logo" />
+                        </div>
+                    </div>
                     
+                    <div class="panelist">
+                        <img src="img/panelists/gurevych2.jpeg" class="photo" /> 
+                        <div class="details">
+                            <p class="name"><a href="https://www.informatik.tu-darmstadt.de/ukp/ukp_home/head_ukp/index.en.jsp" target="_blank">Iryna Gurevych</a></p>
+                            <img src="img/logos/logo_tudarmstadt.svg" class="logo" /><img src="img/logos/mbzuai.png" class="logo" alt="MBZUAI" title="MBZUAI" /><img src="img/logos/insait.jpeg" class="logo" />
+                        </div>
+                    </div>
+
+                    <div class="panelist"> <!-- Good -->
+                        <img src="img/panelists/hershcovich.jpg" class="photo" />
+                        <div class="details">
+                            <p class="name"><a href="https://danielhers.github.io/" target="_blank">Daniel Hershcovich</a></p>
+                            <img src="img/logos/logo_copenhagen.png" class="logo" />
+                        </div>
+                    </div>
+                  
+                    
+                    </div>
+                    <div class="panelists">
+                        <div class="panelist">
+                            <img src="img/panelists/kiesel.jpeg" class="photo" />
+                            <div class="details">
+                                <p class="name"><a href="https://www.uni-weimar.de/en/media/chairs/computer-science-department/webis/people/kiesel/" target="_blank">Johannes Kiesel</a></p>
+                                <img src="img/logos/bauhaus.png" class="logo" />
+                            </div>
+                        </div>
+    
+                        <div class="panelist">
+                            <img src="img/panelists/park.jpeg" class="photo" />
+                            <div class="details">
+                                <p class="name"><a href="http://www.joonsuk.org" target="_blank">Joonsuk Park</a></p>
+                                <img src="img/logos/logo_richmond.png" class="logo" />
+                            </div>
+                        </div>
+
+                    <div class="panelist">
+                        <img src="img/panelists/wachsmuth.jpeg" class="photo" />
+                        <div class="details">
+                            <p class="name"><a href="https://www.ai.uni-hannover.de/en/institute/research-groups/nlp" target="_blank">Henning Wachsmuth</a></p>
+                            <p class="name" style="font-style: italic; color: grey; font-size: 13px;">Moderator</p>
+                            <img src="img/logos/luh_logo.svg" class="logo" />
+                        </div>
+                    </div>
+
                 </div>
             </section>
             <section class="section" id="keynote">
@@ -414,13 +474,12 @@ In order to recognize significant advancements in argument mining science and te
                 <p>We abide by the <a href="https://www.aclweb.org/adminwiki/index.php?title=Anti-Harassment_Policy" target="_blank">ACL anti-harassment policy</a>.</p>
             </section>
 
-            <!-- <section class="section" id="sponsors">
-                <h2>Sponsors</h2>
+           <section class="section" id="sponsors">
+                <h2>Sponsor</h2>
 				<div class="sponsors">
-                    <img src="img/logos/naver.png" alt="NAVER" />
                     <img src="img/logos/ibm.png" alt="IBM" />
                 </div>
-            </section>-->
+            </section>
 
         </div>
 
@@ -432,3 +491,9 @@ In order to recognize significant advancements in argument mining science and te
         </div>
     </body>
 </html>
+
+<script>
+$("#toggle").on("click", function(){
+  $("#oldnews").toggle();                 // .fadeToggle() // .slideToggle()
+});
+</script>
