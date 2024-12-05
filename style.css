@@ -1,0 +1,335 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14pt;
+    line-height: 1.5em;
+    color: #212529;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+}
+
+a {
+    color: royalblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #212529;
+    width: 100%; 
+    position: fixed;
+    top: 0; 
+    font-size: 11pt;
+    text-transform: uppercase;
+}
+
+.navbar .container {
+    display: table;
+    margin: auto;
+}
+
+.navbar a {
+    display: table-cell;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1em;
+    color: #f2f2f2;
+}
+
+.navbar a:hover {
+    background: royalblue;
+}
+
+.navbar .argmining {
+    padding: 14px 40px;
+}
+
+.wrapper {
+    margin: 100px auto; 
+    max-width: 1000px;
+}
+
+.masthead {
+    padding: 20px 0;
+    text-align: center;
+    font-family: "Roboto Slab";
+}
+
+.masthead .workshop_title {
+    padding: 50px 0;
+    font-size: 24pt;
+}
+
+.masthead .workshop_title h1 {
+    font-size: 32pt;
+}
+
+.masthead .links {
+    font-size: 20pt;
+}
+
+.masthead .links .icon {
+    height: 40px;
+}
+
+.section {
+    margin-top: 50px;
+    scroll-margin-top: 90px;
+}
+
+.section h2 {
+    font-size: 24pt;
+    text-transform: uppercase;
+}
+
+.section h3 {
+    font-size: 20pt;
+}
+
+
+
+#about p {
+    margin-bottom: 10px;
+}
+
+#program .time {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#program .papers {
+    margin: 5px 0 10px 0;
+    padding-left: 160px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+#program .papers li {
+    padding: 0;
+}
+#program li .authors {
+    padding: 0 0 0px 0px;
+    color: grey;
+    font-style: italic;
+    font-size: 12pt;
+
+}
+
+#program .authors {
+    margin: 5px 0 10px 20px;
+    padding-left: 100px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    color: grey;
+    font-style: italic;
+    font-size: 12pt;
+
+}
+
+#keynote .person {
+    display: table;
+}
+
+#keynote .person .photo {
+    display: table-cell;
+}
+
+#keynote .person .photo img {
+    width: 150px;
+    margin: 0 30px 0 5px;
+}
+
+#keynote .person .profile {
+    display: table-cell;
+    vertical-align: top;
+}
+
+#keynote .person .profile .title {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#panel .panelists {
+    margin-top: 10px;
+    display: table;
+    width: 100%;
+}
+
+#panel .panelist {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+}
+
+#panel_session .panelist .domain{
+    margin-bottom: 10px;
+}
+
+#panel .panelist .photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#panel .panelist .details {
+    text-align: center;
+}
+
+#panel .panelist .logo {
+    margin-top: 10px;
+    height: 55px;
+}
+
+#shared_task p {
+    margin-bottom: 10px;
+}
+
+#scholarship {
+    display: table;
+    width: 100%;
+}
+
+#scholarship .column {
+    display: table-cell;
+    width: 50%;
+}
+
+#organizing_committee {
+    display: table;
+    width: 100%;
+}
+
+#organizing_committee .member {
+    display: table-cell;
+    width: 25%;
+    text-align: center;
+}
+
+#organizing_committee .member .photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#organizing_committee .member .details {
+    text-align: center;
+}
+
+#organizing_committee .member .email {
+    font-size: 12pt;
+}
+
+#organizing_committee .member .email_logo {
+    height: 1.3em;
+}
+
+#organizing_committee .member .logo {
+    margin-top: 10px;
+    height: 30px;
+}
+
+#program_committee {
+    display: table;
+    width: 100%;
+}
+
+#program_committee .column {
+    display: table-cell;
+    width: 50%;
+}
+
+#best_paper_committee {
+    display: table;
+    width: 100%;
+}
+
+#best_paper_committee .column {
+    display: table-cell;
+    width: 50%;
+}
+
+#local_chair {
+    display: table;
+    width: 100%;
+}
+
+#local_chair .column {
+    display: table-cell;
+    width: 50%;
+}
+
+
+#past_workshops .table {
+    display: table;
+    width: 100%;
+}
+
+#past_workshops .table .column {
+    display: table-cell;
+    width: 33%;
+}
+
+#sponsors .sponsors {
+    width: 100%;
+}
+
+#sponsors .sponsors img {
+    margin-right: 50px;
+    max-height: 40px;
+}
+
+#footer {
+    width: 100%;
+    height: 70px;
+    position: fixed; 
+    bottom: 0px;
+    overflow: hidden;
+}
+
+#footer .dummy {
+    width: 1200px;
+    margin: auto;
+}
+
+#footer a {
+    display: block;
+    float: right;
+    width: 20px;
+    height: 20px;
+    padding: 0 8px 16px 8px;
+    font-size: 18pt;
+    text-align: center;
+    border: 2px solid royalblue;
+}
+
+#footer a:hover {
+    border: 2px solid royalblue;
+    background-color: royalblue;
+    color: white;
+}
+
+
+.notice--info {
+    margin: 1em 0 !important;
+    padding: 1em;
+    color: #494e52;
+    font-family: -apple-system,BlinkMacSystemFont,"Roboto","Segoe UI","Helvetica Neue","Lucida Grande",Arial,sans-serif;
+    font-size: 1em !important;
+    text-indent: initial;
+    background-color: #ebf5f8;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(59,156,186,0.25);
+}
+
+
+#oldnews{
+    display:none;
+  }
