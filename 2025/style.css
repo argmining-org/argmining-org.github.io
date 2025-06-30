@@ -134,6 +134,40 @@ a:hover {
 
 }
 
+
+#posters .time {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#posters .papers {
+    margin: 5px 0 10px 0;
+    padding-left: 160px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+}
+#posters .papers li {
+    padding: 0;
+}
+#posters li .authors {
+    padding: 0 0 0px 0px;
+    color: grey;
+    font-style: italic;
+    font-size: 12pt;
+
+}
+
+#posters .authors {
+    margin: 5px 0 10px 20px;
+    padding-left: 100px;
+    font-size: 0.9em;
+    line-height: 1.3em;
+    color: grey;
+    font-style: italic;
+    font-size: 12pt;
+
+}
+
 #keynote .person {
     display: table;
 }
