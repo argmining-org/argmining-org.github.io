@@ -244,7 +244,7 @@ a:hover {
 
 #organizing_committee .member {
     display: table-cell;
-    width: 25%;
+    width: 15%;
     text-align: center;
 }
 
@@ -267,8 +267,9 @@ a:hover {
 }
 
 #organizing_committee .member .logo {
-    margin-top: 10px;
-    height: 30px;
+  width: 110px;
+  height: auto;
+  vertical-align: middle;
 }
 
 #program_committee {
