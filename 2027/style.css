@@ -375,6 +375,9 @@ a:hover {
   }
 /* Frame Priya's full-resolution portrait as a head-and-shoulders close-up. */
 #organizing_committee .portrait-closeup {
+    position: relative;
+    z-index: 0;
+    isolation: isolate;
     display: inline-block;
     width: 150px;
     height: 150px;
@@ -383,8 +386,11 @@ a:hover {
 }
 
 #organizing_committee .portrait-closeup .photo {
-    transform: scale(1.9);
-    transform-origin: 50% 25%;
+    width: 285px;
+    height: 285px;
+    position: relative;
+    left: -67.5px;
+    top: -33.75px;
 }
 
 #organizing_committee .member .logo-potsdam {
