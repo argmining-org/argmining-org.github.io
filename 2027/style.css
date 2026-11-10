@@ -396,3 +396,19 @@ a:hover {
 #organizing_committee .member .logo-potsdam {
     width: 75px;
 }
+
+.button {
+    display: inline-block;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 24px;
+    border-radius: 6px;
+    margin-top: 0.5em;
+}
+
+.button:hover {
+    background-color: #3457c9;
+    text-decoration: none;
+}
